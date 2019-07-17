@@ -16,6 +16,7 @@ from .csv import read_csv, to_csv, read_table, read_fwf
 from .hdf import read_hdf, to_hdf
 from .sql import read_sql_table
 from .json import read_json, to_json
+from .accumulo import read_accumulo, to_accumulo
 from . import demo
 
 try:
